@@ -80,6 +80,11 @@ p, label, a {
 
 }
 
+
+.navbar {
+	padding: 0px !important;
+}
+
 /*ACCESS PAGE
 ===============================*/
 
@@ -150,23 +155,127 @@ header {
 /*ADMIN INDEX
 ===============================*/
 
+
+/*LEFT NAVBAR
+================*/
+
 .fixed-left {
-	padding-top: 40px;
 	height: 100%;
 	width: 220px;
+	position: absolute;
+	background-color: #333 !important;
+	top: 0;
+}
+.fixed-left ul {
+	list-style: none;
 }
 
-.admin-in {
-	margin-top: -90vh;
+.fixed-left li a{
+	color: #fff;
 }
 
-.profile-pic {
-    border-radius: 100px;
-    height: 250%;
-    margin-top: -90vh;
+.fixed-left li a:hover {
+	text-decoration: none;
 }
 
-.nav-link {
-    margin-left: -15vh;
-	margin-top: -46vh;
+.left-nav-btn {
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    color: #fff;
+    border-top: 5px solid;
+    height: 7vh;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    transition: 0.5s;
 }
+
+.left-nav-btn:hover {
+	color: rgb(26, 178, 255 );
+}
+
+
+.focus {
+	color: grey;
+}
+
+
+.left {
+	width: 100%;
+}
+
+.navbar-nav-left {
+	width: 100%;
+}
+
+.navbar-nav-left ul {
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+}
+
+
+
+/*PAGE 
+================*/
+
+
+.panel-header {
+	background-image: none;
+	background-color: #fff;
+}
+
+.ttgv-logo {
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-left: 7px;
+}
+
+a.navbar-title {
+    position: absolute;
+    margin-left: 3%;
+    font-size: 200%;
+}
+
+a.navbar-title:hover {
+    position: absolute;
+    margin-left: 3%;
+    font-size: 200%;
+    text-decoration: none;
+    color: black; 
+}
+
+.top-navbar {
+	background-color: rgba(26, 178, 255, 0.8) !important;
+	box-shadow: 0px 0px 10px #000;
+	z-index: 1111111;
+	padding: 15px;
+}
+
+.btn-nav {
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    border: 0px;
+    height: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+.btn-nav:hover {
+	background-color: #fff;
+	color: black;
+}
+
+.container {
+	border-radius: 10px solid #000;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+}
+
