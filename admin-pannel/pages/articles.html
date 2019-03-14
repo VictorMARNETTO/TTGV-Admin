@@ -38,10 +38,10 @@
             <img src="../ressources/pictures/logo-ttgv.jpg" class="ttgv-logo">
             <a class="navbar-title" href="#">Admin TTGV</a>
             <div class="ml-auto">
-                <a href="../ttgv-website/index.html">
+                <a href="../../ttgv-website/index.html">
                     <button class="btn-nav">
                         <i class="fas fa-arrow-left"></i>
-                         Retour
+                        Déconnexion
                     </button>
                 </a>
                 <a href="account.html">
@@ -75,22 +75,22 @@
                             </a>
                             <ul>
                                 <li>
-                                    <a href="class-club.html">
+                                    <a href="classement/class-club.html">
                                         Classement du Club
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="class-departement.html">
+                                    <a href="classement/class-departement.html">
                                         Classement Départ.al
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="class-region.html">
+                                    <a href="classement/class-region.html">
                                         Classement Régional
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="class-national.html">
+                                    <a href="classement/class-national.html">
                                         Classement National
                                     </a>
                                 </li>
@@ -121,7 +121,7 @@
                     <div class="title">
                         <h4>Articles</h4>
                         <p>Editer/Ajouter/Supprimer</p>
-                        <a href="#">
+                        <a href="articles-add.html">
                             <i class="fas fa-plus-square fa-2x"></i>
                         </a>
                     </div>
@@ -149,10 +149,10 @@
                                                 <td>19/01/2019</td>
                                                 <td>19/01/2019 par John Doe</td>
                                                 <td>
-                                                    <a href="#">
+                                                    <a href="#popup1">
                                                         <i class="far fa-trash-alt"></i>
                                                     </a>
-                                                    <a href="#">
+                                                    <a href="articles-edit.html">
                                                         <i class="fas fa-pen"></i>
                                                     </a>
                                                 </td>
@@ -164,10 +164,10 @@
                                                 <td>19/11/2018</td>
                                                 <td>19/01/2019 par John Doe</td>
                                                 <td>
-                                                    <a href="#">
+                                                    <a href="#popup1">
                                                         <i class="far fa-trash-alt"></i>
                                                     </a>
-                                                    <a href="#">
+                                                    <a href="articles-edit.html">
                                                         <i class="fas fa-pen"></i>
                                                     </a>
                                                 </td>
@@ -179,16 +179,50 @@
                                                 <td>11/10/2018</td>
                                                 <td>19/01/2019 par John Doe</td>
                                                 <td>
-                                                    <a href="#">
+                                                    <a href="#popup1">
                                                         <i class="far fa-trash-alt"></i>
                                                     </a>
-                                                    <a href="#">
+                                                    <a href="articles-edit.html">
                                                         <i class="fas fa-pen"></i>
                                                     </a>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <div id="popup1" class="overlay">
+                                        <div class="popup">
+                                            <h2>Attention !</h2>
+                                            <div class="content">
+                                                <div class="row popup-row">
+                                                    <div class="col-md-12">
+                                                        <p>
+                                                            Vous allez supprimer l'article [TITRE DE L'ARTICLE]. 
+                                                    <br/>
+                                                            Etes vous sur de vouloir faire cela ?
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row popup-row">
+                                                    <div class="col-md-6">
+                                                        <a href="#">
+                                                            <button class="btn popup-btn accept">
+                                                                Oui, supprimer cet article
+                                                                <i class="fas fa-check-circle"></i>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <a href="#">
+                                                            <button class="btn popup-btn back">
+                                                                Non, revenir en arrière 
+                                                                <i class="fas fa-times"></i>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

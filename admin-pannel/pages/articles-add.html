@@ -2,11 +2,11 @@
 
 <html lang="fr-FR">
 
-	<head>
-	<title> TTGV - DASHBOARD</title>
+    <head>
+    <title> TTGV - ACCOUNT</title>
 
-	<meta charset="utf-8">
-	
+    <meta charset="utf-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- ICON -->
@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- Fonts -->
-	
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800" rel="stylesheet"> 
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800" rel="stylesheet"> 
 
-	<link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet"> 
 
     <!-- Styles -->
 
@@ -38,10 +38,10 @@
             <img src="../ressources/pictures/logo-ttgv.jpg" class="ttgv-logo">
             <a class="navbar-title" href="#">Admin TTGV</a>
             <div class="ml-auto">
-                <a href="../../ttgv-website/index.html">
+                <a href="articles.html">
                     <button class="btn-nav">
                         <i class="fas fa-arrow-left"></i>
-                         Déconnexion
+                         Retour
                     </button>
                 </a>
                 <a href="account.html">
@@ -64,7 +64,7 @@
                     <ul id="menu-accordeon">
                         <li>
                             <a href="admin-index.html">
-                                <button class="left-nav-btn focus">
+                                <button class="left-nav-btn ">
                                     Dashboard
                                 </button>
                             </a>
@@ -98,7 +98,7 @@
                         </li>
                         <li>
                             <a href="articles.html">
-                                <button class="left-nav-btn">
+                                <button class="left-nav-btn focus">
                                     Articles
                                 </button>
                             </a>
@@ -115,36 +115,50 @@
             </div>
         </nav>
 
-        <div class="container dashboard-container">
+        <div class="container dashboard-container account">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 account-container">
                     <div class="title">
-                        <h4>Dashboard</h4>
+                        <h4>
+                            Ajouter un Article
+                            <i class="fas fa-plus-square fa-2x"></i>
+                        </h4>
                     </div>
                 <hr/>
                     <div class="content">
-                        <div class="row dashboard-row">
-                            <div class="col-md-6">
-                                <div class="first-content dashboard-content">
-                                    <p>CONTENU 1</p>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="title">
+                                        Titre
+                                    </label>
+                                   
+                                    <input type="text" class="form-control" value="Titre de l'article"/>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="second-content dashboard-content">
-                                    <p>CONTENU 2</p>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4">
+                                        Contenu
+                                    </label>
+                                    <textarea type="text" class="form-control textarea-article"></textarea>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row dashboard-row">
-                            <div class="col-md-6">
-                                <div class="third-content dashboard-content">
-                                    <p>CONTENU 3</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="fourth-content dashboard-content">
-                                    <p>CONTENU 4</p>
-                                </div>
+                        </form>
+                        <div class="upload-file-form">
+                            <form action="upload.php" method="post" enctype="multipart/form-data" class="upload-pic">
+                                    <p>
+                                        Ajouter une image :
+                                    </p>
+                                    <input type="file" name="fileToUpload" id="fileToUpload">
+                            </form>
+                            <div class="edit-btn-container">
+                                <a>
+                                    <button type="submit" class="btn edit-btn">
+                                        Edit
+                                        <i class="fas fa-pen"></i>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
