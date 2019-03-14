@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="fr-FR">
+
+	<head>
+	<title> TTGV - DASHBOARD</title>
+
+	<meta charset="utf-8">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ICON -->
+
+    <link rel="icon" href="../../ressources/pictures/logo.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Fonts -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800" rel="stylesheet"> 
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet"> 
+
+    <!-- Styles -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../../css/style.css">
+</head> 
+
+<body>
+    <header class="panel-header">
+
+
+        <!-- TOP NAVBAR  
+            ================================================================================-->
+        <nav class="navbar top-navbar navbar-light bg-light">
+            <img src="../../ressources/pictures/logo-ttgv.jpg" class="ttgv-logo">
+            <a class="navbar-title" href="#">Admin TTGV</a>
+            <div class="ml-auto">
+                <a href="../../ttgv-website/index.html">
+                    <button class="btn-nav">
+                        <i class="fas fa-arrow-left"></i>
+                         Retour
+                    </button>
+                </a>
+                <a href="account.html">
+                    <button class="btn-nav">
+                        <i class="fas fa-user-circle"></i>
+                         Mon Compte
+                    </button>
+                </a>
+            </div>
+        </nav>
+
+
+        <!-- LEFT NAVBAR  
+            ================================================================================-->
+
+
+        <nav class="navbar fixed-left top-menu navbar-expand-lg navbar-light bg-light style="background-color: #08d3b5;">
+            <div class="collapse navbar-collapse left" id="navbarNavDropdown">
+                <div class="navbar-nav-left">
+                    <ul id="menu-accordeon">
+                        <li>
+                            <a href="../admin-index.html">
+                                <button class="left-nav-btn">
+                                    Dashboard
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                            <button class="left-nav-btn focus">Classement</button>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="class-club.html">
+                                        Classement du Club
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="class-departement.html">
+                                        Classement Départ.al
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="class-region.html">
+                                        Classement Régional
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="class-national.html">
+                                        Classement National
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../articles.html">
+                                <button class="left-nav-btn">
+                                    Articles
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../calendar.html">
+                                <button class="left-nav-btn">
+                                    Calendrier
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container dashboard-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h4>Classement Régional</h4>
+                    </div>
+                <hr/>
+                    <div class="content">
+                        <div class="row classement-row">
+                            <div class="col-md-6">
+                                <div class="first-content classement-content">
+                                    <h5>Poussin</h5>
+                                <hr>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Nom</th>
+                                                <th scope="col">Prénom</th>
+                                                <th scope="col">Age</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                 <div class="first-content classement-content">
+                                    <h5>Benjamin</h5>
+                                <hr>                                    
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Nom</th>
+                                                <th scope="col">Prénom</th>
+                                                <th scope="col">Age</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row classement-row">
+                            <div class="col-md-6">
+                                <div class="first-content classement-content">
+                                    <h5>Minimes</h5>
+                                <hr>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Nom</th>
+                                                <th scope="col">Prénom</th>
+                                                <th scope="col">Age</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                 <div class="first-content classement-content">
+                                    <h5>Cadet</h5>
+                                <hr>                                    
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Nom</th>
+                                                <th scope="col">Prénom</th>
+                                                <th scope="col">Age</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>19</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+</body>
