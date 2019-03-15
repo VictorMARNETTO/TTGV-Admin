@@ -34,6 +34,7 @@
 ===============================*/
 html, body {
 	background-color: #fff;
+  line-height: 0.5;
 }
 
 
@@ -72,6 +73,16 @@ label {
 
 ul, li, button {
 	font-family: "Montserrat"
+}
+
+.container {
+  top: 0 !important;
+}
+
+input {
+  border-radius: 15px;
+  border: 1px solid gray;
+  padding: 5px; 
 }
 
 /*HEADER
@@ -190,7 +201,7 @@ header {
 
 .fixed-left {
 	height: 100%;
-	width: 220px;
+	width: 11.5%;
 	position: absolute;
 	background-color: #333 !important;
 	top: 0;
@@ -360,7 +371,7 @@ a.navbar-title:hover {
 
 .dashboard-container {
 	position: relative;
-	margin-top: 0;
+	margin-top: 0%;
 	left: 0;
 }
 
@@ -649,6 +660,7 @@ main {
   opacity: 0;
   text-align: center;
 }
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
@@ -720,4 +732,46 @@ main {
 
 .popup-btn.accept i{
 	color: #33cc33;
+}
+
+
+
+
+/*RESPONSIVE TABLEAUX
+========================*/
+.warning {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+  z-index: 1;
+  align-content: center;
+}
+
+@media screen and (max-width:1450px) {
+
+  .warning {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  opacity: 1;
+  text-align: center;
+  transition: 0.5s;
+  z-index: 1111111111;
+}
+
+}
+
+.popup-phone {
+  line-height: 20px;
 }

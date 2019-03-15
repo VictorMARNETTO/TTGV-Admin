@@ -58,7 +58,10 @@
             ================================================================================-->
 
 
-        <nav class="navbar fixed-left top-menu navbar-expand-lg navbar-light bg-light style="background-color: #08d3b5;">
+        <nav class="navbar fixed-left top-menu navbar-expand-lg navbar-light bg-light" style="background-color: #08d3b5;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             <div class="collapse navbar-collapse left" id="navbarNavDropdown">
                 <div class="navbar-nav-left">
                     <ul id="menu-accordeon">
@@ -114,12 +117,38 @@
                 </div>
             </div>
         </nav>
-
+        <div id="popup2" class="warning">
+                                        <div class="popup">
+                                            <h2>Attention !</h2>
+                                            <div class="content">
+                                                <div class="row popup-row">
+                                                    <div class="col-md-12">
+                                                        <p class="popup-phone">
+                                                            Ce site ne supporte pas le format de votre appareil. 
+                                                        <br>
+                                                            Vous risquez de manquer du contenu !
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row popup-row">
+                                                    <div class="col-md-6">
+                                                        <a href="../../ttgv-website/index.html">
+                                                            <button class="btn popup-btn accept">
+                                                                OK
+                                                                <i class="fas fa-times"></i>
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
         <div class="container dashboard-container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
                         <h4>Dashboard</h4>
+                        <a href="#popup2"></a>
                     </div>
                 <hr/>
                     <div class="content">
@@ -247,6 +276,6 @@
                 </div>
             </div>
         </div>
-
     </header>
 </body>
+</html>
