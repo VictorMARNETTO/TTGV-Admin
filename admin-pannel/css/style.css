@@ -119,6 +119,10 @@ input {
     margin-left: 5%;
 }
 
+
+.top-menu {
+  padding: 35px !important;
+}
 /*ACCESS PAGE
 ===============================*/
 
@@ -205,6 +209,7 @@ header {
 	position: absolute;
 	background-color: #333 !important;
 	top: 0;
+  padding: 0 !important;
 }
 .fixed-left ul {
 	list-style: none;
@@ -306,6 +311,7 @@ a.navbar-title:hover {
     padding-bottom: 5px;
     transition: all 0.5s;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .btn-nav:hover {
@@ -313,6 +319,7 @@ a.navbar-title:hover {
 	color: black;
 	box-shadow: 0 0 2px gray;
 	margin-right: 15px;
+  text-decoration: none;
 }
 
 .container {
@@ -371,7 +378,7 @@ a.navbar-title:hover {
 
 .dashboard-container {
 	position: relative;
-	margin-top: 0%;
+	margin-top: 5%;
 	left: 0;
 }
 
@@ -737,8 +744,9 @@ main {
 
 
 
-/*RESPONSIVE TABLEAUX
+/*RESPONSIVE ALERT 
 ========================*/
+
 .warning {
   position: fixed;
   top: 0;
@@ -747,6 +755,7 @@ main {
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
+  visibility: hidden;
   opacity: 0;
   text-align: center;
   transition: 0.5s;
@@ -754,7 +763,7 @@ main {
   align-content: center;
 }
 
-@media screen and (max-width:1450px) {
+@media screen and (max-width:1444px) {
 
   .warning {
   position: fixed;
@@ -764,6 +773,7 @@ main {
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
+  visibility: visible;
   opacity: 1;
   text-align: center;
   transition: 0.5s;
@@ -771,6 +781,16 @@ main {
 }
 
 }
+
+@media screen and (max-width: 1450px) {
+
+  .navbar.fixed-left {
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+
+}
+
 
 .popup-phone {
   line-height: 20px;

@@ -273,6 +273,7 @@ header {
 	background-color: #007acc;
 	color: #fff;
 	margin-right: 15px;
+	transition: 1s;
 }
 
 .send-btn:hover {
@@ -281,7 +282,6 @@ header {
 	background-color: transparent;
 	color: #000;
 	transform: translateX(30px);
-	transition: 1s;
 }
 
 .send-icon {
@@ -295,7 +295,7 @@ header {
 
 .footer-animation {
 	text-align: center;
-	background-color: #000; 
+	background-color: #747171; 
 }
 
 .footer-animation li {
@@ -316,7 +316,7 @@ footer {
 	display: flex;
 	position: relative;
 	justify-content: space-around;
-	background-color: #000;
+	background-color: #747171;
 	color: #000;
 }
 
