@@ -34,7 +34,7 @@
 ===============================*/
 html, body {
 	background-color: #fff;
-  line-height: 0.5;
+  line-height: 1;
 }
 
 
@@ -80,9 +80,7 @@ ul, li, button {
 }
 
 input {
-  border-radius: 15px;
-  border: 1px solid gray;
-  padding: 5px; 
+  margin: 5px; 
 }
 
 /*HEADER
