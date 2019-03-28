@@ -236,7 +236,7 @@ header {
 .contact-section {
 	background-image: url(../pictures/contact/contact-bg.jpg);
 	padding-top: 5vh;
-	padding-bottom: 12vh;
+	padding-bottom: 0;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -296,7 +296,7 @@ header {
 
 .footer-animation {
 	text-align: center;
-	background-color: #02BAFF; 
+	background-color: rgba(0, 219, 255,0.6); 
 }
 
 .footer-animation li {
@@ -317,7 +317,7 @@ footer {
 	display: flex;
 	position: relative;
 	justify-content: space-around;
-	background-color: #02BAFF;
+	background-color: rgba(0, 219, 255,0.6);
 	color: #000;
 	bottom: 0;
 }
