@@ -296,7 +296,6 @@ header {
 
 .footer-animation {
 	text-align: center;
-	background-color: rgba(0, 219, 255,0.6); 
 }
 
 .footer-animation li {
@@ -355,7 +354,7 @@ footer {
 }
 
 .snip1582:before {
-  border-color: #00dbff;
+  border-color: black;
   border-top-width: 2px;
   left: 0px;
   top: -5px;
@@ -363,7 +362,7 @@ footer {
 
 .snip1582:after {
   border-bottom-width: 2px;
-  border-color: #00dbff;
+  border-color: black;
   bottom: -5px;
   right: 0px;
 }
