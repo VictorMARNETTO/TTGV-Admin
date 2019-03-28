@@ -379,3 +379,33 @@ footer {
   height: 100%;
   width: 100%;
 }
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE TITLE 
+================================================*/
+
+@media screen and (max-width: 600px) {
+	.container-title{
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 25%;
+		position: relative;
+		display: inline-block;
+		border: 5px double white;
+		background-color: black;
+		opacity: 0.8;
+		padding-bottom: 3%;
+		padding-left: 2%;
+		padding-right: 2%; 
+	}
+	.container-btn {
+		margin-left: 7%;
+	}
+}
